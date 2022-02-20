@@ -12,7 +12,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 #Eazy Level - Order not randomised:
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 
-total_string = ""
+total_string = " "
 
 for letters_ in range(0,nr_letters):
   random_letters = random.choice(letters)
@@ -49,4 +49,4 @@ total_string_1 = " "
 random.shuffle(total_list)
 for i in total_list:
   total_string_1 += i
-print(total_string)
+print(total_string_1)
