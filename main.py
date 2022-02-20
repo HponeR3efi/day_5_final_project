@@ -26,7 +26,7 @@ for symbols_ in range(0,nr_symbols):
   random_symbols = random.choice(symbols)
   total_string += random_symbols
 
-print(f"Your Pass Word is : {total_string}")
+print(f"Your simple random Password is : {total_string}")
 
 # #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P3
@@ -49,4 +49,4 @@ total_string_1 = " "
 random.shuffle(total_list)
 for i in total_list:
   total_string_1 += i
-print(total_string_1)
+print(f"Your complicate random Password is : {total_string_1}")
